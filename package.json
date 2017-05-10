@@ -1,0 +1,21 @@
+{
+  "name": "dcontentful",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "homepage": "http://github.com/dnode/dcontentful",
+  "author": {
+    "name": "Sharaal",
+    "email": "developer@dragonprojects.de",
+    "url": "http://dragonprojects.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/dcontentful.git"
+  },
+  "readmeFilename": "README.md",
+  "main": "src/lib.js",
+  "dependencies": {
+    "contentful": "^4.3.0"
+  }
+}
