@@ -2,7 +2,7 @@ const contentful = require('contentful');
 
 module.exports.createClient = ({ space, accessToken }) => {
   const client = contentful.createClient({ space, accessToken });
-  const getEntries = async (opts) => {
+  const getEntries = async opts => {
     opts.include = opts.include || 10;
     const entries = (await client.getEntries(opts)).items;
     entries.map(function flatten(entry) {
